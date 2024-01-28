@@ -1,5 +1,6 @@
 <h1>Welcome to PIANO PAWS - our submission Global Game Jam 2024!</h1>
-<p>Over a 48-hour period, We've developed a fun and interactive experience using Unity and C# that's guaranteed to make you laugh.</p>
+<p>Over a 48-hour period, We've developed a fun and interactive experience using Unity and C# that's guaranteed to make you smile. The theme is "Make Me Laugh", and it's safe to say we had a lot of fun with it!</p>
+<p>Learn more about the event: <a href="https://atlantic.ctvnews.ca/mobile/video?clipId=2855631">Dalhousie students create video games in 48 hours</a></p>
 
 <h3>Meet the Developers!</h3>
 <p><b>Tyler Bechtold</b></p>
