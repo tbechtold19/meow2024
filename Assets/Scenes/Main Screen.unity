@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: F#
   key: g
-  audioClip: {fileID: 8300000, guid: bb1a9e6e79038ca4b93ccf3d9dc89874, type: 3}
+  audioClip: {fileID: 8300000, guid: 02ad1c053dfeac049abeea29fc78ce4a, type: 3}
   originalSprite: {fileID: -1375137146, guid: ce6696422085c43168be3fcbc73f657a, type: 3}
   pressedSprite: {fileID: -1020049932, guid: ce6696422085c43168be3fcbc73f657a, type: 3}
 --- !u!61 &11381577
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: D
   key: x
-  audioClip: {fileID: 8300000, guid: 258b62d981eb3f74191b4e79adff3943, type: 3}
+  audioClip: {fileID: 8300000, guid: 03d510d035c6d4349b00affbfdb9780c, type: 3}
   originalSprite: {fileID: 628172908, guid: b8a8a5d0870b6479699a230aad010b01, type: 3}
   pressedSprite: {fileID: 129347977, guid: b8a8a5d0870b6479699a230aad010b01, type: 3}
 --- !u!61 &440567180
@@ -1340,7 +1340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: G#
   key: h
-  audioClip: {fileID: 8300000, guid: 58d25fbc5468ba04ab74be9a82424994, type: 3}
+  audioClip: {fileID: 8300000, guid: ec5cb8a82f2a32d499ae504addbf39e9, type: 3}
   originalSprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
   pressedSprite: {fileID: -2095166593, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
 --- !u!61 &1414329526
@@ -1488,7 +1488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: E
   key: c
-  audioClip: {fileID: 8300000, guid: 29f8f809f53641c49bc3113b38ea72d3, type: 3}
+  audioClip: {fileID: 8300000, guid: b4d99c379d601774188da63c95a6d464, type: 3}
   originalSprite: {fileID: -1668991358, guid: 992701032b59543f1a9dd949e0f6a07b, type: 3}
   pressedSprite: {fileID: 1391880845, guid: 992701032b59543f1a9dd949e0f6a07b, type: 3}
 --- !u!61 &1418582842
@@ -1636,7 +1636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: A
   key: n
-  audioClip: {fileID: 8300000, guid: 9497fc4b32898324ca9c7fe8cd46bd19, type: 3}
+  audioClip: {fileID: 8300000, guid: 00c3b87e7c107c54a9134b23930d9829, type: 3}
   originalSprite: {fileID: 21300000, guid: 0acd56ef5961152418500243bcb77d0a, type: 3}
   pressedSprite: {fileID: 21300000, guid: 75a83ef07f151db4c90887cfffa384d1, type: 3}
 --- !u!61 &1566648972
@@ -1852,7 +1852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: D#
   key: d
-  audioClip: {fileID: 8300000, guid: b1cdf46c9efa2fe4ba80fe49a4ab0d3f, type: 3}
+  audioClip: {fileID: 8300000, guid: 05741dc8d3d4d2c448df42b7ffd71734, type: 3}
   originalSprite: {fileID: 2125502997, guid: 9dfadaaa206434bf287972ed6354dc5f, type: 3}
   pressedSprite: {fileID: 1431264570, guid: 9dfadaaa206434bf287972ed6354dc5f, type: 3}
 --- !u!61 &1605296042
@@ -2045,7 +2045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: C#
   key: s
-  audioClip: {fileID: 8300000, guid: 61028ff1b85f2794daf29794a6993890, type: 3}
+  audioClip: {fileID: 8300000, guid: efcce50a8e5c80f43a4e991809791cac, type: 3}
   originalSprite: {fileID: -1349799527, guid: cbed6fc3e909c478981b32404ce33e55, type: 3}
   pressedSprite: {fileID: 607540634, guid: cbed6fc3e909c478981b32404ce33e55, type: 3}
 --- !u!1 &1729039993
@@ -2148,7 +2148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: B
   key: m
-  audioClip: {fileID: 8300000, guid: 59dff428a1cbfcd4fbbc8eb603e93fae, type: 3}
+  audioClip: {fileID: 8300000, guid: 47125c80c23f01145b28405032e847ba, type: 3}
   originalSprite: {fileID: 881121102, guid: ba81b5c7cbf5d427a87a3d6d0b1d86a3, type: 3}
   pressedSprite: {fileID: 1228426256, guid: ba81b5c7cbf5d427a87a3d6d0b1d86a3, type: 3}
 --- !u!61 &1729039997
@@ -2296,7 +2296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: F
   key: v
-  audioClip: {fileID: 8300000, guid: 02df5610a139a724682ad15269d5f813, type: 3}
+  audioClip: {fileID: 8300000, guid: 09cd9a5f708871d489b0bb41f5882dcf, type: 3}
   originalSprite: {fileID: 638803899, guid: 96addf0d0d72d4d53b996241b4013fa5, type: 3}
   pressedSprite: {fileID: 931081270, guid: 96addf0d0d72d4d53b996241b4013fa5, type: 3}
 --- !u!61 &1757021294
