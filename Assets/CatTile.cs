@@ -15,40 +15,42 @@ public class CatTile : MonoBehaviour
      public Sprite pressedSprite;
     private SpriteRenderer spriteRenderer;
 
+    public PianoGame pianoGame;
+
      private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        pianoGame = FindObjectOfType<PianoGame>(); // Find the PianoGame script in the scene
 
     }
 
     private void Update()
     {
-        AudioSource audioSource = GetComponent<AudioSource>();
-
-        if (audioSource == null)
-        {
-            audioSource = gameObject.AddComponent<AudioSource>();
-        }
-
         // Check for key press corresponding to the piano key
         if (Input.GetKeyDown(key))
         {
 
-            StartCoroutine(PlayAndResetSprite(audioSource));
+            StartCoroutine(PlayAndResetSprite());
+
+            // Check if the PianoGame is running before calling OnPianoKeyPressed
+            if (pianoGame != null && pianoGame.IsGameRunning())
+            {
+                pianoGame.OnPianoKeyPressed(noteName);
+            }
 
         }
+        
     }
 
     private void OnMouseDown()
     {
-        AudioSource audioSource = GetComponent<AudioSource>();
+        StartCoroutine(PlayAndResetSprite());
 
-        if (audioSource == null)
+        // Check if the PianoGame is running before calling OnPianoKeyPressed
+        if (pianoGame != null && pianoGame.IsGameRunning())
         {
-            audioSource = gameObject.AddComponent<AudioSource>();
+            pianoGame.OnPianoKeyPressed(noteName);
         }
-
-        StartCoroutine(PlayAndResetSprite(audioSource));
 
         //audioSource.clip = audioClip;
         //spriteRenderer.sprite = pressedSprite;
@@ -59,8 +61,15 @@ public class CatTile : MonoBehaviour
     }
 
  
-    IEnumerator PlayAndResetSprite(AudioSource audioSource)
+    public IEnumerator PlayAndResetSprite()
     {
+        AudioSource audioSource = GetComponent<AudioSource>();
+
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
         audioSource.clip = audioClip;
         spriteRenderer.sprite = pressedSprite;
         audioSource.PlayOneShot(audioClip, 0.7F);
