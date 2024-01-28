@@ -183,7 +183,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
+  m_Sprite: {fileID: -1375137146, guid: ce6696422085c43168be3fcbc73f657a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -203,9 +203,9 @@ Transform:
   m_GameObject: {fileID: 11381573}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50, y: 95, z: -1}
-  m_LocalScale: {x: 90, y: 90, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 54, y: 121, z: -1}
+  m_LocalScale: {x: 110, y: 110, z: 1.2222222}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 711230202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -224,8 +224,8 @@ MonoBehaviour:
   noteName: F#
   key: g
   audioClip: {fileID: 8300000, guid: bb1a9e6e79038ca4b93ccf3d9dc89874, type: 3}
-  originalSprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
-  pressedSprite: {fileID: -2095166593, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
+  originalSprite: {fileID: -1375137146, guid: ce6696422085c43168be3fcbc73f657a, type: 3}
+  pressedSprite: {fileID: -1020049932, guid: ce6696422085c43168be3fcbc73f657a, type: 3}
 --- !u!61 &11381577
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -262,7 +262,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.66, y: 0.81}
+    oldSize: {x: 0.73, y: 0.8}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1003,7 +1003,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
+  m_Sprite: {fileID: -886966515, guid: 87e4dd51585844f748fb9531f773bf35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1044,8 +1044,8 @@ MonoBehaviour:
   noteName: A#
   key: j
   audioClip: {fileID: 8300000, guid: 4c0ddef35dbf06a409de72ef7d1fb0c9, type: 3}
-  originalSprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
-  pressedSprite: {fileID: -2095166593, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
+  originalSprite: {fileID: -886966515, guid: 87e4dd51585844f748fb9531f773bf35, type: 3}
+  pressedSprite: {fileID: 770452782, guid: 87e4dd51585844f748fb9531f773bf35, type: 3}
 --- !u!61 &1269781640
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1082,7 +1082,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.66, y: 0.81}
+    oldSize: {x: 0.83, y: 0.85}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1811,7 +1811,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
+  m_Sprite: {fileID: 2125502997, guid: 9dfadaaa206434bf287972ed6354dc5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1832,8 +1832,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -150, y: 95, z: -1}
-  m_LocalScale: {x: 90, y: 90, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 120, y: 120, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 711230202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1852,8 +1852,8 @@ MonoBehaviour:
   noteName: D#
   key: d
   audioClip: {fileID: 8300000, guid: b1cdf46c9efa2fe4ba80fe49a4ab0d3f, type: 3}
-  originalSprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
-  pressedSprite: {fileID: -2095166593, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
+  originalSprite: {fileID: 2125502997, guid: 9dfadaaa206434bf287972ed6354dc5f, type: 3}
+  pressedSprite: {fileID: 1431264570, guid: 9dfadaaa206434bf287972ed6354dc5f, type: 3}
 --- !u!61 &1605296042
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1890,7 +1890,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.66, y: 0.81}
+    oldSize: {x: 0.71, y: 0.7}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1959,7 +1959,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
+  m_Sprite: {fileID: -1349799527, guid: cbed6fc3e909c478981b32404ce33e55, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1980,8 +1980,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -250, y: 95, z: -1}
-  m_LocalScale: {x: 90, y: 90, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 120, y: 120, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 711230202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2021,7 +2021,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.66, y: 0.81}
+    oldSize: {x: 0.61, y: 0.73}
     newSize: {x: 40, y: 40}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2045,8 +2045,8 @@ MonoBehaviour:
   noteName: C#
   key: s
   audioClip: {fileID: 8300000, guid: 61028ff1b85f2794daf29794a6993890, type: 3}
-  originalSprite: {fileID: 1786529053, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
-  pressedSprite: {fileID: -2095166593, guid: 1b45343b9208d4a2f8c0dbf171cf840d, type: 3}
+  originalSprite: {fileID: -1349799527, guid: cbed6fc3e909c478981b32404ce33e55, type: 3}
+  pressedSprite: {fileID: 607540634, guid: cbed6fc3e909c478981b32404ce33e55, type: 3}
 --- !u!1 &1729039993
 GameObject:
   m_ObjectHideFlags: 0
