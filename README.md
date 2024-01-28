@@ -11,3 +11,7 @@
 
 <h1>Play our game here!</h1>
 <a href="">dummylink</a>
+<img width="627" alt="image" src="https://github.com/tbechtold19/meow2024/assets/88724148/30758932-f6b7-4b8c-9b21-0187f8904ac2">
+<img width="624" alt="image" src="https://github.com/tbechtold19/meow2024/assets/88724148/03d6c714-ce0a-4ead-8820-306adecbb241">
+
+
