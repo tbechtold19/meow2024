@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 22d82c33abf514432b28c347681ec4f2
+guid: 82ffaacd6aa744835a6ced2df7d263de
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,49 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: cat2-meow_0
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 57
-        width: 59
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ace70ba6be79445b9e8c0e641dd3838
-      internalID: -1357049843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat2-meow_1
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 61
-        width: 54
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0da3823b78a584309a4c746cd2b475f1
-      internalID: 1964021559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -174,9 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      cat2-meow_0: -1357049843
-      cat2-meow_1: 1964021559
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

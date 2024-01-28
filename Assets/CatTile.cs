@@ -7,6 +7,8 @@ using UnityEngine;
 public class CatTile : MonoBehaviour
 {
      public string noteName;
+     public string key;
+
      public AudioClip audioClip;
 
      public Sprite originalSprite;
@@ -17,6 +19,24 @@ public class CatTile : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
 
+    }
+
+    private void Update()
+    {
+        AudioSource audioSource = GetComponent<AudioSource>();
+
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        // Check for key press corresponding to the piano key
+        if (Input.GetKeyDown(key))
+        {
+
+            StartCoroutine(PlayAndResetSprite(audioSource));
+
+        }
     }
 
     private void OnMouseDown()
@@ -43,7 +63,7 @@ public class CatTile : MonoBehaviour
     {
         audioSource.clip = audioClip;
         spriteRenderer.sprite = pressedSprite;
-        audioSource.Play();
+        audioSource.PlayOneShot(audioClip, 0.7F);
 
         // Wait for the next frame without freezing the UI
         yield return null;
