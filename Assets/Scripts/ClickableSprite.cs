@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 
 public class ClickableSprite : MonoBehaviour
@@ -8,3 +9,4 @@ public class ClickableSprite : MonoBehaviour
         Debug.Log("Sprite Clicked!");
     }
 }
+*/

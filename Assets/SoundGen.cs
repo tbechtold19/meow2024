@@ -1,14 +1,14 @@
+/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundGen : MonoBehaviour
 {
-    /* 
-    Created by Marvin Krueger
-    This file was created by us. We used a method for sound generation which was intially mentioned here: https://www.youtube.com/watch?v=GqHFGMy_51c and adjusted it for our purposes
-     */
-     
+    
+    //Created by Marvin Krueger
+    //This file was created by us. We used a method for sound generation which was intially mentioned here: https://www.youtube.com/watch?v=GqHFGMy_51c and adjusted it for our purposes
+      
     float sampleRate;
     AudioSource audioSource;
 
@@ -87,3 +87,4 @@ public class SoundGen : MonoBehaviour
         
     }
 }
+*/
