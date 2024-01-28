@@ -2449,7 +2449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteName: 
   key: 
-  audioClip: {fileID: 8300000, guid: 011ee6f3016b7431e9c3ed95f1f4bb2d, type: 3}
+  audioClip: {fileID: 8300000, guid: 13328043b36fe49edadf9ffdfbb1b7fc, type: 3}
   originalSprite: {fileID: 1841616493, guid: 98fbdedaec88943038d203cdfe8bb613, type: 3}
   pressedSprite: {fileID: 1339836603, guid: 98fbdedaec88943038d203cdfe8bb613, type: 3}
   pianoGame: {fileID: 0}
