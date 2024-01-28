@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66564eeae8264d7448d9622dd4be1fd7
+guid: 421ffab17fe9e4040a4e3ba18125a98e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: canva plant_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2400
+        height: 1153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf6f1a66ba8c4970944ca29e8522480
+      internalID: 533643461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canva plant_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 98
+        width: 748
+        height: 1055
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed1fd3d3b5eb4c5a8bc8e12cfbde8f8
+      internalID: 1624673834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canva plant_2
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 172
+        width: 698
+        height: 981
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae848565d6fde49bb809329f0a029db7
+      internalID: -2062619384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +195,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      canva plant_0: 533643461
+      canva plant_1: 1624673834
+      canva plant_2: -2062619384
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
